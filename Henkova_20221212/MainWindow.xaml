@@ -6,19 +6,14 @@
         xmlns:local="clr-namespace:Henkova_20221212"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="215*"/>
-        </Grid.RowDefinitions>
-        <Button Content="Attack" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Grid.Row="1" Height="90" Width="150" Click="Button_Click0"/>
-        <Button Content="Heal" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Row="1" Height="90" Width="150" Click="Button_Click1"/>
-        <Button Content="LevelUp" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top" Grid.Row="1" Height="90" Width="150" Click="Button_Click2" />
-        <TextBox Name="txt1" HorizontalAlignment="Left" Margin="180,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="215" Height="410" />
-        <TextBox Name="txt2" HorizontalAlignment="Left" Height="410" Margin="575,6,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="215"/>
-        <Button Content="Attack" HorizontalAlignment="Left" Margin="420,58,0,0" VerticalAlignment="Top" Grid.Row="1" Height="90" Width="150" Click="Button_Click3"/>
-        <Button Content="Heal" HorizontalAlignment="Left" Margin="420,0,0,0" VerticalAlignment="Center" Grid.Row="1" Height="90" Width="150" Click="Button_Click4"/>
-        <Button Content="LevelUp" HorizontalAlignment="Left" Margin="420,286,0,0" VerticalAlignment="Top" Grid.Row="1" Height="90" Width="150" Click="Button_Click5"/>
+    <Grid Background="DimGray">
+
+        <Button Background="DarkRed" Content="Attack" HorizontalAlignment="Center" Margin="0,14,0,0" VerticalAlignment="Top" Height="90" Width="150" Click="Button_Click0"/>
+        <Button Background="MediumSeaGreen" Content="Heal" HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top" Height="90" Width="150" Click="Button_Click1"/>
+        <Button Background="CornflowerBlue" Content="LevelUp" HorizontalAlignment="Center" Margin="0,330,0,14" Height="90" Width="150" Click="Button_Click2" />
+       
+        <TextBox Name="txt1" Background="LightGray" HorizontalAlignment="Left" Margin="10,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="280" Height="410" />
+        <TextBox Name="txt2" Background="LightGray" HorizontalAlignment="Left" Height="410" Margin="510,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="280"/>
 
     </Grid>
 </Window>

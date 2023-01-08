@@ -42,13 +42,13 @@ namespace Henkova_20221212
             textBox.Text += "HP: " + soldier.HP.ToString() + "\n";
             textBox.Text += "Shield: " + soldier.Shield.ToString() + "\n";
             textBox.Text += "Level: " + soldier.Level.ToString() + "\n";
-      
+
         }
 
 
         private void Button_Click0(object sender, RoutedEventArgs e)
         {
-            
+
 
         }
 
@@ -62,19 +62,5 @@ namespace Henkova_20221212
 
         }
 
-        private void Button_Click3(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click4(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click5(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

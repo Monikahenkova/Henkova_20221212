@@ -33,7 +33,7 @@ namespace Henkova_20221212
 
         public void Bojovat()
         {
-            if ()
+           
         }
 
         public void ZvysitLevel()

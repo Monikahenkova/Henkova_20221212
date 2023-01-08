@@ -8,12 +8,16 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="DimGray">
 
-        <Button Background="DarkRed" Content="Attack" HorizontalAlignment="Center" Margin="0,14,0,0" VerticalAlignment="Top" Height="90" Width="150" Click="Button_Click0"/>
-        <Button Background="MediumSeaGreen" Content="Heal" HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top" Height="90" Width="150" Click="Button_Click1"/>
-        <Button Background="CornflowerBlue" Content="LevelUp" HorizontalAlignment="Center" Margin="0,330,0,14" Height="90" Width="150" Click="Button_Click2" />
-       
-        <TextBox Name="txt1" Background="LightGray" HorizontalAlignment="Left" Margin="10,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="280" Height="410" />
-        <TextBox Name="txt2" Background="LightGray" HorizontalAlignment="Left" Height="410" Margin="510,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="280"/>
+        <Button Background="DarkRed" Content="Attack" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top" Height="90" Width="150" Click="Button_Click0"/>
+        <Button Background="MediumSeaGreen" Content="Heal" HorizontalAlignment="Left" Margin="415,174,0,0" VerticalAlignment="Top" Height="90" Width="150" Click="Button_Click1"/>
+        <Button Background="CornflowerBlue" Content="LevelUp" HorizontalAlignment="Left" Margin="415,330,0,14" Height="90" Width="150" Click="Button_Click2" />
+
+        <TextBox Name="txt1" Background="LightGray" HorizontalAlignment="Left" Margin="170,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220" Height="410" />
+        <TextBox Name="txt2" Background="LightGray" HorizontalAlignment="Left" Height="410" Margin="570,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="220"/>
+
+        <Button Background="DarkRed" Content="Attack" HorizontalAlignment="Left" Margin="415,14,0,0" VerticalAlignment="Top" Height="90" Width="150" Click="Button_Click3" />
+        <Button Background="MediumSeaGreen" Content="Heal" HorizontalAlignment="Left" Margin="10,174,0,0" VerticalAlignment="Top" Height="90" Width="150" Click="Button_Click4"/>
+        <Button Background="CornflowerBlue" Content="LevelUp" HorizontalAlignment="Left" Margin="10,334,0,10" Height="90" Width="150" Click="Button_Click5"/>
 
     </Grid>
 </Window>

@@ -62,5 +62,19 @@ namespace Henkova_20221212
 
         }
 
+        private void Button_Click3(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click4(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click5(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

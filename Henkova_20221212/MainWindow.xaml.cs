@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Media.Media3D.Converters;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
@@ -42,39 +43,51 @@ namespace Henkova_20221212
             textBox.Text += "HP: " + soldier.HP.ToString() + "\n";
             textBox.Text += "Shield: " + soldier.Shield.ToString() + "\n";
             textBox.Text += "Level: " + soldier.Level.ToString() + "\n";
-
+            textBox.Text += "Result:" + soldier.Result.ToString() + "\n";
         }
-
 
         private void Button_Click0(object sender, RoutedEventArgs e)
         {
-
+            dva.Bojovat();
+            
+            Zobraz(dva, txt2);
 
         }
 
         private void Button_Click1(object sender, RoutedEventArgs e)
         {
+            jedna.LecitSe();
 
+            Zobraz(jedna, txt1);
         }
 
         private void Button_Click2(object sender, RoutedEventArgs e)
         {
+            jedna.ZvysitLevel();
 
+            Zobraz(jedna, txt1);
         }
 
         private void Button_Click3(object sender, RoutedEventArgs e)
         {
+            jedna.Bojovat();
 
+            Zobraz(jedna, txt1);
         }
 
         private void Button_Click4(object sender, RoutedEventArgs e)
         {
+            dva.LecitSe();
+
+            Zobraz(dva, txt2);
 
         }
 
         private void Button_Click5(object sender, RoutedEventArgs e)
         {
+            dva.ZvysitLevel();
 
+            Zobraz(dva, txt2);
         }
     }
 }
